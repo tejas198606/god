@@ -10,7 +10,7 @@ STATIC_FOLDER = "static"                                 ## Folder name
 
 
 # Load model
-cnn_model = tf.keras.models.load_model(STATIC_FOLDER + "/models/" + "model1.h5")  
+cnn_model = tf.keras.models.load_model(STATIC_FOLDER + "/models/" + "model11_catsVSdogs.h5")  
 ## static folder inside model folder and save model 
 
 
