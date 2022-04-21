@@ -5,7 +5,7 @@ from flask import Flask, render_template, request, send_from_directory
 app = Flask(__name__,template_folder='template')
 
 dir_path = os.path.dirname(os.path.realpath(__file__))
-## UPLOAD_FOLDER = "uploads"                                ## Folder name
+UPLOAD_FOLDER = "uploads"                                ## Folder name
 STATIC_FOLDER = "static"                                 ## Folder name
 
 
